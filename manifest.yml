@@ -1,0 +1,12 @@
+---
+applications:
+- name: my-todo-app
+  memory: 512M
+  random-route: false
+  domain: ddworld.cfapps.io
+  path: build/libs/MyTodoProject-0.0.1-SNAPSHOT.jar
+services:
+- mymongo
+
+
+

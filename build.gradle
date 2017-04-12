@@ -24,17 +24,19 @@ repositories {
 
 
 dependencies {
-	compile('org.springframework.cloud:spring-cloud-starter-config')
-	compile('org.springframework.cloud:spring-cloud-config-server')
-	compile('org.springframework.cloud:spring-cloud-starter-feign')
-	compile('org.springframework.cloud:spring-cloud-starter-ribbon')
-	compile('org.springframework.cloud:spring-cloud-starter-consul-config')
-	compile('org.springframework.cloud:spring-cloud-starter-zookeeper-config')
-	compile('org.springframework.cloud:spring-cloud-starter-zuul')
+	//compile('org.springframework.cloud:spring-cloud-starter-config')
+	//compile('org.springframework.cloud:spring-cloud-config-server')
+	//compile('org.springframework.cloud:spring-cloud-starter-feign')
+	//compile('org.springframework.cloud:spring-cloud-starter-ribbon')
+	//compile('org.springframework.cloud:spring-cloud-starter-consul-config')
+	//compile('org.springframework.cloud:spring-cloud-starter-zookeeper-config')
+	//compile('org.springframework.cloud:spring-cloud-starter-zuul')
+	
+	//compile('io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker')
+	//compile('io.pivotal.spring.cloud:spring-cloud-services-starter-config-client')
+	//compile('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')
+	
 	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
-	compile('io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker')
-	compile('io.pivotal.spring.cloud:spring-cloud-services-starter-config-client')
-	compile('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
