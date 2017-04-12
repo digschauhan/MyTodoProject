@@ -6,7 +6,7 @@ import org.springframework.data.annotation.Id;
 public class Task {
 	
 	@Id
-	private String Id;
+	private String id;
 	private String taskDesc;
 	private String taskNote;
 	private String owner;
@@ -20,11 +20,11 @@ public class Task {
 	private String priority;
 
 	public String getId() {
-		return Id;
+		return this.id;
 	}
 
 	public void setId(String id) {
-		Id = id;
+		this.id = id;
 	}
 
 	public String getTaskDesc() {
